@@ -61,19 +61,18 @@ It will generate directories & files that looks like the following structure:
 ├── go.mod
 ├── go.sum
 ├── internal
-│   └── leaf-example
-│       ├── inbound
-│       │   ├── di.go
-│       │   └── http
-│       │       ├── health
-│       │       │   ├── check.go
-│       │       │   ├── controller.go
-│       │       │   └── routes.go
-│       │       └── routes.go
-│       ├── outbound
-│       │   └── di.go
-│       └── usecases
-│           └── di.go
+│   ├── inbound
+│   │   ├── di.go
+│   │   └── http
+│   │       ├── health
+│   │       │   ├── check.go
+│   │       │   ├── controller.go
+│   │       │   └── routes.go
+│   │       └── routes.go
+│   ├── outbound
+│   │   └── di.go
+│   └── usecases
+│       └── di.go
 └── pkg
     ├── config
     │   ├── configApp.go
@@ -91,7 +90,7 @@ It will generate directories & files that looks like the following structure:
         │   └── validator.go
         └── resource.go
 
-14 directories, 23 files
+13 directories, 23 files
 ```
 Make sure you add all dependencies to the `go.sum` by running `go mod tidy`
 

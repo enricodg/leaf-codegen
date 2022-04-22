@@ -17,16 +17,16 @@ func (h handler) Init(project string) error {
 		return err
 	}
 
-	inboundPath := filepath.Join(directory.Internal, projectName, directory.Inbound)
+	inboundPath := filepath.Join(directory.Internal, directory.Inbound)
 	healthPath := filepath.Join(inboundPath, directory.Http, directory.Health)
 	if err := os.MkdirAll(healthPath, os.ModePerm); err != nil {
 		return err
 	}
-	outboundPath := filepath.Join(directory.Internal, projectName, directory.Outbound)
+	outboundPath := filepath.Join(directory.Internal, directory.Outbound)
 	if err := os.MkdirAll(outboundPath, os.ModePerm); err != nil {
 		return err
 	}
-	useCasesPath := filepath.Join(directory.Internal, projectName, directory.UseCases)
+	useCasesPath := filepath.Join(directory.Internal, directory.UseCases)
 	if err := os.MkdirAll(useCasesPath, os.ModePerm); err != nil {
 		return err
 	}

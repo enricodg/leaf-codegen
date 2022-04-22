@@ -4,10 +4,10 @@ go 1.18
 
 require (
 	github.com/labstack/gommon v0.3.1
-	github.com/paulusrobin/leaf-utilities/config v0.0.0-20220413144204-972ab9e3b19d
-	github.com/paulusrobin/leaf-utilities/logger/integrations/logrus v0.0.0-20220413144204-972ab9e3b19d
-	github.com/paulusrobin/leaf-utilities/logger/logger v0.0.0-20220413144204-972ab9e3b19d
-	github.com/urfave/cli/v2 v2.4.0
+	github.com/paulusrobin/leaf-utilities/config v0.0.0-20220422095901-cbdbd676731a
+	github.com/paulusrobin/leaf-utilities/logger/integrations/logrus v0.0.0-20220422095901-cbdbd676731a
+	github.com/paulusrobin/leaf-utilities/logger/logger v0.0.0-20220422095901-cbdbd676731a
+	github.com/urfave/cli/v2 v2.4.4
 )
 
 require (
@@ -23,8 +23,8 @@ require (
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/paulusrobin/leaf-utilities/encoding/json v0.0.0-20220222200733-69928017cac4 // indirect
-	github.com/paulusrobin/leaf-utilities/mandatory v0.0.0-20220222215549-97dac254c189 // indirect
+	github.com/paulusrobin/leaf-utilities/encoding/json v0.0.0-20220413144204-972ab9e3b19d // indirect
+	github.com/paulusrobin/leaf-utilities/mandatory v0.0.0-20220420070336-2df28f149cda // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
 	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect

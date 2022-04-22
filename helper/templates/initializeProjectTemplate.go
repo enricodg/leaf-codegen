@@ -461,8 +461,8 @@ func InitNewRelicConfig() (NewRelicConfig, error) {
 const DITemplate = `package pkgDi
 
 import (
-	"{{.ProjectURL}}/internal/{{.ProjectName}}/outbound"
-	"{{.ProjectURL}}/internal/{{.ProjectName}}/usecases"
+	"{{.ProjectURL}}/internal/outbound"
+	"{{.ProjectURL}}/internal/usecases"
 	pkgConfig "{{.ProjectURL}}/{{.ConfigPath}}"
 	pkgResource "{{.ProjectURL}}/{{.ResourcePath}}"
 	"go.uber.org/dig"
